@@ -1,4 +1,4 @@
-churn_model
+End-to-End-Machine-Learning-Pipeline
 ==============================
 
 End-to-End-Machine-Learning-Pipeline
