@@ -2,6 +2,7 @@ End-to-End-Machine-Learning-Pipeline
 ==============================
 
 End-to-End-Machine-Learning-Pipeline
+https://churnmodeldevelop.herokuapp.com/ URL of the web aplication
 
 Project Organization
 ------------
