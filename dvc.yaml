@@ -35,3 +35,8 @@ stages:
     - random_forest.n_estimators
     outs:
     - models/model.joblib
+
+  model_monitor:
+    cmd: python src/models/model_monitor.py --config=params.yaml
+    deps:
+    - src/models/model_monitor.py

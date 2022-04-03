@@ -59,3 +59,9 @@ stages:
     - path: models/model.joblib
       md5: 3f7a9d03128832a82e6fce88d53ea18c
       size: 664987
+  model_monitor:
+    cmd: python src/models/model_monitor.py --config=params.yaml
+    deps:
+    - path: src/models/model_monitor.py
+      md5: 96672ddbe1bc76581486be78e2a75960
+      size: 1530
